@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Layout>
-        <h1>teste</h1>
+        <Navbar/>
       </Layout>
       <GlobalStyles/>
     </>
