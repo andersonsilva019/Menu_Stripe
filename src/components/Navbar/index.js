@@ -1,6 +1,6 @@
 import React from "react";
 import { Products, Developers, Company } from "../Content";
-import { DropdownOption, DropdownProvider } from "../Dropdown";
+import { DropdownOption, DropdownProvider, DropdownRoot } from "../Dropdown";
 import { Container, DropdownStyles } from "./styles";
 
 function Navbar() {
@@ -20,6 +20,7 @@ function Navbar() {
             </li>
           </ul>
         </Container>
+        <DropdownRoot />
       </DropdownStyles>
     </DropdownProvider>
   );
